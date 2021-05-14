@@ -1,4 +1,4 @@
-name: gat
+name: car_racing
 channels:
   - defaults
   - conda-forge
@@ -33,6 +33,7 @@ dependencies:
   - hdf5=1.10.4=h7ebc959_0
   - icc_rt=2019.0.0=h0cc432a_1
   - idna=2.10=pyh9f0ad1d_0
+  - imageio=2.9.0=py_0
   - importlib-metadata=4.0.1=py38haa244fe_0
   - intel-openmp=2021.2.0=haa95532_616
   - ipykernel=5.3.4=py38h5ca1d4c_0
@@ -58,6 +59,7 @@ dependencies:
   - numpy=1.20.1=py38h34a8a5c_0
   - numpy-base=1.20.1=py38haf7ebc8_0
   - oauthlib=3.0.1=py_0
+  - olefile=0.46=pyh9f0ad1d_1
   - opencv=4.0.1=py38h2a7c758_0
   - openssl=1.1.1k=h8ffe710_0
   - parso=0.8.2=pyhd3eb1b0_0
@@ -86,9 +88,9 @@ dependencies:
   - sqlite=3.35.4=h2bbff1b_0
   - tensorboard=2.4.1=pyhd8ed1ab_0
   - tensorboard-plugin-wit=1.8.0=pyh44b312d_0
+  - tk=8.6.10=h8ffe710_1
   - tornado=6.1=py38h2bbff1b_0
   - traitlets=5.0.5=pyhd3eb1b0_0
-  - typing_extensions=3.7.4.3=py_0
   - urllib3=1.26.4=pyhd8ed1ab_0
   - vc=14.2=h21ff451_1
   - vs2015_runtime=14.27.29016=h5e58377_2
@@ -114,5 +116,7 @@ dependencies:
     - pytz==2021.1
     - scipy==1.6.3
     - stable-baselines3==1.0
-    - torch==1.8.1
+    - torch==1.8.1+cu102
+    - torchaudio==0.8.1
+    - torchvision==0.9.1+cu102
     - typing-extensions==3.10.0.0
