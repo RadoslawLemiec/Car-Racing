@@ -47,7 +47,7 @@ Gameplay:
 
 
 ## Instalation
-Conda environment can be recreated with *environment.yml* file (`conda create -f environment.yml`).
+Conda environment can be recreated with *environment.yml* file (`conda env create -f environment.yml`).
 
 In order to use GPU Cuda has to be installed.
 
